@@ -10,12 +10,82 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-html {
+html
+{
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: comicsans;
 }
 
+#menu ul li
+{
+    display: inline;
+    list-style-type: none;
+    text-align: center;
+    font-family: "comicsans";
+}
+#menu ul li a{
+    margin-left: 150px;
+    line-height: 50px;
+    padding:0 50px;
+    text-decoration: none;
+}
+#column1 {
+    float:left;
+    width: 500px;
+    text-align: justify;
+    margin-left: 200px;
+}
+#column2 {
+    float:right;
+    width: 700px;
+    margin-right: 200px;
+}
+#tablemenu {
+    clear: both;
+}
+#video
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom:25px;
+    
+}   
+#tablemenu tr th {
+    border: solid black;
+}
+.verticalText {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+}
+#fbbar{
+    height: 50px;
+    width: 1400px;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+#Cooling p {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+#heating p {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+#aboutus p {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+#contactinfo font  {
+    text-align: right;
+}
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection rule sets have to be separate.
